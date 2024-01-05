@@ -1,5 +1,5 @@
 # Modular-Ship-Expander
-This is a plugin that adds several Modular Outfits for ships. They allow you to increase outfit, cargo, bunk, weapon, engine, hull, and shields respectively. Each one has high mass weights and heavy costs to provide some balance.
+This is a plugin for the game Endless Sky that adds several Modular Outfits for ships. They allow you to increase outfit, cargo, bunk, weapon, engine, hull, and shields respectively. Each one has high mass weights and heavy costs to provide some balance.
 
 There is also an android included in this pack. It costs power and outfit space to provide some balance.
 
