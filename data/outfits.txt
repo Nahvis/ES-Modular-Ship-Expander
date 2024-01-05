@@ -1,0 +1,93 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+outfit "Modular Outfits Expansion"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/modular outfit"
+	"mass" 100
+	"outfit space" 50
+	"unplunderable" 1
+	description "This expansion allows you allows you to increase total outfit space at significant cost and high mass increase. It does not increase your weapon or engine space."
+	
+
+outfit "Modular Cargo Expansion"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/modular cargo"
+	"mass" 100
+	"cargo space" 50
+	"unplunderable" 1
+	description "This expansion allows you to increase the total cargo space of your vessel at a significant cost and high mass increase."
+
+outfit "Modular Bunk Room"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/modular bunk"
+	"mass" 50
+	"bunks" 20
+	"unplunderable" 1
+	description "If you really want to make space for more passengers, you can expand the living space of your ship at significant cost and weight increase."
+
+
+outfit "Modular Engine Expansion"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/modular engine"
+	"mass" 50
+	"engine capacity" 50
+	"unplunderable" 1
+	description "This expansion allows you to increase the total engine capacity of your vessel at a significant cost and high mass increase."
+
+
+outfit "Modular Weapon Expansion"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/modular weapon"
+	"mass" 50
+	"weapon capacity" 50
+	"unplunderable" 1
+	description "This expansion allows you to increase the total weapon capacity of your vessel at a significant cost and high mass increase."
+
+
+outfit "Modular Hull Expansion"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/red screwdriver"
+	"mass" 100
+	"hull" 1000
+	"unplunderable" 1
+	description "This expansion allows you to increase the total hull points of your vessel at a significant cost and high mass increase."
+
+
+outfit "Modular Shield Expansion"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/blue screwdriver"
+	"mass" 100
+	"shields" 1000
+	"unplunderable" 1
+	description "This expansion allows you to increase the total shield points of your vessel at a significant cost and high mass increase."
+
+
+outfit "Modular Android"
+	category "Unique"
+	cost 5000000
+	thumbnail "outfit/android"
+	"outfit space" -.1
+	"required crew" -1
+	"energy consumption" 0.0167
+	unplunderable 1
+	description "While these were once considered cutting-edge outfits, their lack of autonomous capabilities and economic benefit ensured they were never licensed by a manufacturer."
+	description "	By popular demand they have returned to the market, however they are cost prohibitive for most captains. Unfortunately, some of the original design specs were lost and the new version requires more power and also a small amount of cargo space for each android to recharge."
