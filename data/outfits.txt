@@ -12,78 +12,95 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 
-outfit "Modular Outfits Expansion"
+outfit "Outfits Expansion Modular"
 	category "Systems"
-	cost 50000000
+	cost 40000
 	thumbnail "outfit/modular outfit"
-	"mass" 100
-	"outfit space" 50
+	"mass" 40
+	"outfit space" 20
+	"cooling inefficiency" 1
+	"heat dissipation" -.01
 	"unplunderable" 1
-	description "This expansion allows you allows you to increase total outfit space at significant cost and high mass increase. It does not increase your weapon or engine space."
+	description "When the traditional Outfits Expansion just isn't enough, you can always slap a box to the outside of your ship."
+	description "	The increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
+	description "	Note: This system has the same cooling issues the standard Outfits Expansion has."
 	
 
-outfit "Modular Cargo Expansion"
+outfit "Cargo Expansion Modular"
 	category "Systems"
-	cost 50000000
+	cost 40000
 	thumbnail "outfit/modular cargo"
-	"mass" 100
-	"cargo space" 50
+	"mass" 40
+	"cargo space" 20
 	"unplunderable" 1
-	description "This expansion allows you to increase the total cargo space of your vessel at a significant cost and high mass increase."
+	description "When the traditional Cargo Expansion just isn't enough, you can always slap a box to the outside of your ship."
+	description "	The increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
 
-outfit "Modular Bunk Room"
+
+outfit "Bunk Room Modular"
 	category "Systems"
-	cost 50000000
+	cost 40000
 	thumbnail "outfit/modular bunk"
-	"mass" 50
-	"bunks" 20
+	"mass" 40
+	"bunks" 4
 	"unplunderable" 1
-	description "If you really want to make space for more passengers, you can expand the living space of your ship at significant cost and weight increase."
+	description "When the traditional Bunk Room just isn't enough, you can always slap a box to the outside of your ship."
+	description "	The increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
 
 
-outfit "Modular Engine Expansion"
+outfit "Engine Expansion Modular"
 	category "Systems"
-	cost 50000000
+	cost 40000
 	thumbnail "outfit/modular engine"
-	"mass" 50
-	"engine capacity" 50
+	"mass" 20
+	"engine capacity" 20
+	"energy consumption" .0334
 	"unplunderable" 1
-	description "This expansion allows you to increase the total engine capacity of your vessel at a significant cost and high mass increase."
+	description "When you need just a bit more engine space, expanding through the hull to a box outside the ship is an option."
+	description "	The energy consumption and increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
 
 
-outfit "Modular Weapon Expansion"
+
+outfit "Weapon Expansion Modular"
 	category "Systems"
-	cost 50000000
+	cost 40000
 	thumbnail "outfit/modular weapon"
-	"mass" 50
-	"weapon capacity" 50
+	"mass" 20
+	"weapon capacity" 20
+	"energy consumption" .0334
 	"unplunderable" 1
-	description "This expansion allows you to increase the total weapon capacity of your vessel at a significant cost and high mass increase."
+	description "When you need just a bit more weapon space, expanding through the hull to a box outside the ship is an option."
+	description "	The energy consumption and increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
 
 
-outfit "Modular Hull Expansion"
+outfit "Hull Expansion Modular"
 	category "Systems"
-	cost 50000000
+	cost 20000
 	thumbnail "outfit/red screwdriver"
-	"mass" 100
-	"hull" 1000
+	"mass" 40
+	"hull" 400
+	"hull energy" .0667
 	"unplunderable" 1
-	description "This expansion allows you to increase the total hull points of your vessel at a significant cost and high mass increase."
+	description "If your ship is feeling a little squishy lately, adding a layer of armor to the outside is an option."
+	description "	The increased mass and hull regeneration energy required to keep the armor attached is high enough that most captains prefer to move to a larger ship."
 
 
-outfit "Modular Shield Expansion"
+outfit "Shield Expansion Modular"
 	category "Systems"
-	cost 50000000
+	cost 20000
 	thumbnail "outfit/blue screwdriver"
-	"mass" 100
-	"shields" 1000
+	"mass" 10
+	"shields" 400
+	"energy consumption" .6667
+	"shield energy" .0667
 	"unplunderable" 1
 	description "This expansion allows you to increase the total shield points of your vessel at a significant cost and high mass increase."
+	description "	The increased mass, energy consumption, and shield regeneration energy required to are high enough that most captains prefer to move to a larger ship."
 
 
-outfit "Modular Android"
-	category "Unique"
-	cost 5000000
+outfit "Android Modular"
+	category "Systems"
+	cost 5000
 	thumbnail "outfit/android"
 	"outfit space" -.1
 	"required crew" -1
