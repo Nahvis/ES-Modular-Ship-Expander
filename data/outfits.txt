@@ -100,7 +100,7 @@ outfit "Shield Expansion Modular"
 
 outfit "Android Modular"
 	category "Systems"
-	cost 5000
+	cost 50000
 	thumbnail "outfit/android"
 	"outfit space" -.1
 	"required crew" -1
