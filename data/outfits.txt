@@ -20,10 +20,13 @@ outfit "Outfits Expansion Modular"
 	"outfit space" 20
 	"cooling inefficiency" 1
 	"heat dissipation" -.01
+	"hull" -1000
+	"hull multiplier" -.02
+	"shield energy multiplier" .1
 	"unplunderable" 1
-	description "When the traditional Outfits Expansion just isn't enough, you can always slap a box to the outside of your ship."
-	description "	The increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
-	description "	Note: This system has the same cooling issues the standard Outfits Expansion has."
+	description "When the traditional Outfits Expansion just isn't enough, you can add a box to the outside of your ship."
+	description "	Note: Attaching boxes to the outside of a ship weakens the hull, decreases heat dissipation and increases shield regeneration costs. Also, the direct exposure to space requires heavy plating and structural support."
+	description "	Most captains prefer to move to a larger ship rather than compromising the integrity of their current ship."
 	
 
 outfit "Cargo Expansion Modular"
@@ -32,9 +35,14 @@ outfit "Cargo Expansion Modular"
 	thumbnail "outfit/modular cargo"
 	"mass" 40
 	"cargo space" 20
+	"heat dissipation" -.01
+	"hull" -1000
+	"hull multiplier" -.02
+	"shield energy multiplier" .1
 	"unplunderable" 1
-	description "When the traditional Cargo Expansion just isn't enough, you can always slap a box to the outside of your ship."
-	description "	The increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
+	description "When the traditional Cargo Expansion just isn't enough, you can add a box to the outside of your ship."
+	description "	Note: Attaching boxes to the outside of a ship weakens the hull, decreases heat dissipation and increases shield regeneration costs. Also, the direct exposure to space requires heavy plating and structural support."
+	description "	Most captains prefer to move to a larger ship rather than compromising the integrity of their current ship."
 
 
 outfit "Bunk Room Modular"
@@ -43,9 +51,14 @@ outfit "Bunk Room Modular"
 	thumbnail "outfit/modular bunk"
 	"mass" 40
 	"bunks" 4
+	"heat dissipation" -.01
+	"hull" -1000
+	"hull multiplier" -.02
+	"shield energy multiplier" .1
 	"unplunderable" 1
-	description "When the traditional Bunk Room just isn't enough, you can always slap a box to the outside of your ship."
-	description "	The increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
+	description "When the traditional Bunk Room just isn't enough, you can add a box to the outside of your ship."
+	description "	Note: Attaching boxes to the outside of a ship weakens the hull, decreases heat dissipation and increases shield regeneration costs. Also, the direct exposure to space requires heavy plating and structural support."
+	description "	Most captains prefer to move to a larger ship rather than compromising the integrity of their current ship."
 
 
 outfit "Engine Expansion Modular"
@@ -54,7 +67,8 @@ outfit "Engine Expansion Modular"
 	thumbnail "outfit/modular engine"
 	"mass" 20
 	"engine capacity" 20
-	"energy consumption" .0334
+	"hull multiplier" -.02
+	"energy consumption" .3334
 	"unplunderable" 1
 	description "When you need just a bit more engine space, expanding through the hull to a box outside the ship is an option."
 	description "	The energy consumption and increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
@@ -67,7 +81,8 @@ outfit "Weapon Expansion Modular"
 	thumbnail "outfit/modular weapon"
 	"mass" 20
 	"weapon capacity" 20
-	"energy consumption" .0334
+	"hull multiplier" -.02
+	"energy consumption" .334
 	"unplunderable" 1
 	description "When you need just a bit more weapon space, expanding through the hull to a box outside the ship is an option."
 	description "	The energy consumption and increased mass required to keep this box attached is high enough that most captains prefer to move to a larger ship."
@@ -98,13 +113,15 @@ outfit "Shield Expansion Modular"
 	description "	The increased mass, energy consumption, and shield regeneration energy required to are high enough that most captains prefer to move to a larger ship."
 
 
-outfit "Android Modular"
+outfit "Android Alcove"
 	category "Systems"
-	cost 50000
+	cost 100000
 	thumbnail "outfit/android"
-	"outfit space" -.1
-	"required crew" -1
-	"energy consumption" 0.0167
+	"outfit space" -1
+	"required crew" -5
+	"energy consumption" 0.167
+	"operating costs" 100
 	unplunderable 1
-	description "While these were once considered cutting-edge outfits, their lack of autonomous capabilities and economic benefit ensured they were never licensed by a manufacturer."
-	description "	By popular demand they have returned to the market, however they are cost prohibitive for most captains. Unfortunately, some of the original design specs were lost and the new version requires more power and also a small amount of cargo space for each android to recharge."
+	description "Androids never caught on while their designer was alive. Over time whatever technology he used to make them fully autonomous was lost."
+	description "	By popular demand they have been recreated, however the new version requires regular recharging in a special alcove outfit and regular operating costs. Each Alcove includes 5 Androids."
+	description "	Captains that wish to use Androids to replace required crew members only spend twenty percent of typical crew costs. Captains that use Androids to stack their bunks with extra fighters end up spending twenty percent extra."
