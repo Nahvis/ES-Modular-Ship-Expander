@@ -1,0 +1,12 @@
+.0.0.3
+Increased "energy consumption" cost of Weapon Expansion Modular and Engine Expansion Modular.
+Added decimal to "energy consumption" for Engine Expansion Modular
+Added negative "heat dissipation" to Bunk Room Modular, Cargo Modular, and Outfit Modular.
+Added negative "hull" to Bunk Room Modular, Cargo Modular, and Outfit Modular.
+Added negative "hull multiplier" to Bunk Room Modular, Cargo Modular, and Outfit Modular.
+Added "shield energy multiplier" cost to Bunk Room Modular, Cargo Modular, and Outfit Modular.
+Added negative "hull multiplier" to Engine Expansion and Weapon Expansion.
+Renamed Android Modular to Android Alcove.
+Android Alcove contains 5 androids, credit cost was lowered, "outfit space" and "energy consumption" was doubled.
+Added "operating costs" to androids.
+Added all Modular outfits and Android Alcove to "Common Outfits"
